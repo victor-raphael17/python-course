@@ -36,4 +36,24 @@ letters = "Python"
 letters_list = list(letters)
 print(letters_list) # ['P', 'y', 't', 'h', 'o', 'n']
 
+numbers = range(5)
+numbers_list = list(numbers)
+print(numbers_list) # [0, 1, 2, 3, 4
 
+# Nested lists / Matrix
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+print(matrix) # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+print(type(matrix)) # <class 'list'>
+
+mixed_matrix = [[1, 'two', 3.0], [True, None, 'six'], [7, 8, 9]]
+
+print(mixed_matrix) # [[1, 'two', 3.0], [True, None, 'six'], [7, 8, 9]]
+
+print(type(mixed_matrix)) # <class 'list'>
+
+empty_matrix = [[], [], []]
+
+print(bool(empty_matrix)) # [[], [], []]
