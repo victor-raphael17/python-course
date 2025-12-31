@@ -45,3 +45,15 @@ print(matrix)
 matrix.insert(0, [0, 0, 0])
 
 print(matrix)
+
+# Add 'x' in the end of the second row
+
+matrix[1].append('x')
+
+print(matrix)
+
+# Add 'y' at index 2 of the third row
+
+matrix[2].insert(2, 'y')
+
+print(matrix)
